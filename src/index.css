@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200&display=swap');
+
+/* 
+font-family: 'Poppins', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* the  main body----container */
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(/asset/bg-pattern-top.svg), url(/asset/bg-pattern-top.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 48vw bottom 40vh, left 45vw top 40vh;
+}
+
+
+#img-banner{
+    margin-bottom: -0.19rem;
+    border: none;
+    border-radius: 10px 10px 0 0;
+}
+
+/* image styling */
+#img-mee{
+    width: 120px;
+    height: 120px;
+    border: 4px solid white;
+    border-radius: 100px;
+    margin: -4rem 0 0 6.8rem;
+}
+
+.profile-div{
+    /* border: 1px solid red; */
+    background-color: white;
+    width: 350px;
+    height: 300px;
+    border-radius: 0 0 10px 10px;
+}
+
+span{
+    color: hsl(0, 0%, 59%);
+}
+
+
+.bio-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    gap: 0.5rem;
+}
+
+
+/* .profile-div>h1{
+    margin-left: 2.5rem; 
+} */
+
+.bio-div>h2{
+    color: hsl(0, 0%, 59%);
+}
+
+.multiple-divs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid hsl(0, 0%, 76%);
+}
+
+p{
+    color: hsl(0, 0%, 59%);
+}
+
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 375px) {
+    .container{
+        min-width: 50vw;
+    }
+
+}
